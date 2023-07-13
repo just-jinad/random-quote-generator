@@ -324,7 +324,10 @@ function generate() {
 
 }
 
-// let data = quotes.map(res => {
-//     quoteText.innerText = res.quote
-//     authorName.innerText = res.author
-// })
+function ChangeColor (){
+    // alert("workin")
+    document.body.style.backgroundColor = 
+    'rgb('+ Math.round(Math.random()*255)+
+    ','+ Math.round(Math.random()*255)+
+    ','+ Math.round(Math.random()*255)+')'
+}

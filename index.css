@@ -6,21 +6,32 @@
 
 body{
     background: pink;
-}
-
-.parentDiv{
-    margin: 100px 0 ;
-}
-
-.childDiv{
-    align-items: center;
-    width: 40%;
-    border-radius: 15px;
-    margin: auto;
-    background-color: white;
-    padding: 30px 30px 25px;
-}
-
-.container h3{
     text-align: center;
+    margin: auto;
 }
+
+.container{
+    background-color: #fff;
+    width: 500px;
+    min-height: 300px;
+    border-radius: 25px;
+    padding: 20px;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.contain{
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(0, -50%);
+}
+
+h1{
+    font-weight: 400;
+}
+
+
+
+
+
